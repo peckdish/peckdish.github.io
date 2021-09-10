@@ -423,7 +423,7 @@ body {
 body {
   background-attachment: fixed;
   background-color: #1c1c1c;
-  background-image: url(http://localhost:8080/images/83da01e8580579de31d222998e3824fb.png);
+  background-image: url(http://localhost:8080/images/a06d916761954d37d923e80c6bb81056.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: 2000px;
@@ -436,7 +436,7 @@ body {
 
 body::before {
   content: "";
-  background-image: url(http://localhost:8080/images/f4e964ef548b10bd472698fbca13e4b7.png);
+  background-image: url(http://localhost:8080/images/20bd31d690752a02c64067ca0febf7e9.png);
   background-blend-mode: screen;
   width: 100vw;
   height: 100vh;
