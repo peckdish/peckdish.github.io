@@ -582,6 +582,90 @@ button,
           transform: translate(-50%, -50%);
 }
 
+.values {
+    height: 105vh;
+    position: relative;
+  }
+
+.values__holder {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    width: 100%;
+    max-width: 1100px;
+    min-height: 100%;
+  }
+
+.values__we-do-it {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
+
+.values__center-are-you-hungr{
+    width: 100%;
+    left: 13%;
+    top: -20%;
+    position: absolute;
+  }
+
+.values__people-for-brands {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
+
+.values__great-brands {
+    width: 100%;
+    position: absolute;
+    top: calc(50% + 160px);
+    left: calc(50% + 40px);
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
+
+.values__3d-tag-some-eggs {
+    width: 284px;
+    height: 340px;
+    position: absolute;
+  }
+
+.values__3d-donuts {
+    width: 20%;
+    position: absolute;
+    top: calc(50% - 150px);
+    left: calc(50% + 300px);
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 10px;
+    margin-left: -200px;
+  }
+
+.grid-item {
+    padding: 20px;
+    font-size: 30px;
+    height: 360px;
+    text-align: center;
+  }
+
 .progress-menu {
   position: fixed;
   top: 50%;
@@ -786,3 +870,9 @@ button,
   border: 1px solid #fff;
 }
 
+#loading {
+    height: 100vh;
+    display: block;
+    position: absolute;
+    width: 100vw;
+  }
