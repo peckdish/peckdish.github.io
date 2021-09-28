@@ -642,6 +642,10 @@ button,
     position: absolute;
   }
 
+.values__3d-kanji {
+    position: absolute;
+  }
+
 .values__3d-donuts {
     width: 20%;
     position: absolute;
@@ -664,6 +668,144 @@ button,
     font-size: 30px;
     height: 360px;
     text-align: center;
+  }
+
+.values__3d-katana {
+    width: 20%;
+    position: absolute;
+    top: calc(50% - 230px);
+    left: 20px;
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
+
+.how {
+    height: 105vh;
+    position: relative;
+  }
+
+.how__holder {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    width: 100%;
+    max-width: 1100px;
+    min-height: 100%;
+  }
+
+.how__we-do-it {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
+
+.how__center-are-you-hungr{
+    width: 100%;
+    left: 13%;
+    top: -20%;
+    position: absolute;
+  }
+
+.how__people-for-brands {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
+
+.how__great-brands {
+    width: 100%;
+    position: absolute;
+    top: calc(50% + 160px);
+    left: calc(50% + 40px);
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
+
+.how__3d-tag-some-eggs {
+    width: 284px;
+    height: 340px;
+    position: absolute;
+  }
+
+.how__3d-kanji {
+    position: absolute;
+  }
+
+.how__3d-donuts {
+    width: 20%;
+    position: absolute;
+    top: calc(50% - 150px);
+    left: calc(50% + 300px);
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 10px;
+    margin-left: -200px;
+  }
+
+.grid-item {
+    padding: 20px;
+    font-size: 30px;
+    height: 360px;
+    text-align: center;
+  }
+
+.how__3d-notebook {
+    width: 20%;
+    position: absolute;
+    top: calc(10%);
+    left: calc(80%);
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
+
+.how__3d-lampada{
+    width: 30%;
+    position: absolute;
+    top: calc(60%);
+    left: calc(10%);
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
+
+.how__center-imagery{
+    width: 50%;
+    top: 20%;
+    position: absolute;
+  }
+
+.how__movement{
+    width: 20%;
+    top: 30%;
+    left: 70%;
+    position: absolute;
+  }
+
+.how__content{
+    width: 20%;
+    top: 60%;
+    left: calc(40%);
+    position: absolute;
   }
 
 .progress-menu {
