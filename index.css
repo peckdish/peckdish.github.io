@@ -899,6 +899,21 @@ button,
     margin-left: 50px;
   }
 
+.grid-item-methodology-2{
+    padding: 20px;
+    text-align: center;
+  }
+
+.methodology__3d-katana {
+    width: 20%;
+    position: absolute;
+    top: calc(50% - 230px);
+    left: 120px;
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
+
 .grid-item-methodology-end{
     padding: 20px;
     width: 270px;
@@ -919,14 +934,13 @@ button,
     margin-top: -300px;
   }
 
-.methodology__3d-katana {
-    width: 20%;
-    position: absolute;
-    top: calc(50% - 230px);
-    left: 20px;
-    -webkit-transform: translate(-50%, -50%);
-        -ms-transform: translate(-50%, -50%);
-            transform: translate(-50%, -50%);
+.methodologys{
+    margin-top: -80px;
+  }
+
+.no_need{
+    width: 80%;
+    margin-left: 10%;
   }
 
 .one-step-title{
