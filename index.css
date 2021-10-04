@@ -644,6 +644,8 @@ button,
 
 .values__3d-kanji {
     position: absolute;
+    width: 100%;
+    top: -80px;
   }
 
 .values__3d-donuts {
@@ -806,6 +808,135 @@ button,
     top: 60%;
     left: calc(40%);
     position: absolute;
+  }
+
+.methodology {
+    height: 105vh;
+    position: relative;
+  }
+
+.methodology__holder {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    width: 100%;
+    max-width: 1100px;
+    min-height: 100%;
+  }
+
+.methodology__we-do-it {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
+
+.methodology__center-are-you-hungr{
+    width: 100%;
+    left: 13%;
+    top: -20%;
+    position: absolute;
+  }
+
+.methodology__people-for-brands {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
+
+.methodology__great-brands {
+    width: 100%;
+    position: absolute;
+    top: calc(50% + 160px);
+    left: calc(50% + 40px);
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
+
+.methodology__3d-tag-some-eggs {
+    width: 284px;
+    height: 340px;
+    position: absolute;
+  }
+
+.methodology__3d-kanji {
+    position: absolute;
+    width: 100%;
+    top: -80px;
+  }
+
+.methodology__3d-donuts {
+    width: 20%;
+    position: absolute;
+    top: calc(50% - 150px);
+    left: calc(50% + 300px);
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
+
+.grid-container-methodology {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+  }
+
+.grid-item-methodology {
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    margin-left: 50px;
+  }
+
+.grid-item-methodology-end{
+    padding: 20px;
+    width: 270px;
+    text-align: center;
+    margin-left: 50px;
+  }
+
+.detail-service{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    font-size: 16px;
+    letter-spacing: 0.4;
+  }
+
+.mr-top{
+    margin-top: -300px;
+  }
+
+.methodology__3d-katana {
+    width: 20%;
+    position: absolute;
+    top: calc(50% - 230px);
+    left: 20px;
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
+
+.one-step-title{
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    color: white;
+    text-transform: uppercase;
   }
 
 .progress-menu {
