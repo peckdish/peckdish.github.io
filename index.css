@@ -645,7 +645,7 @@ button,
 .values__3d-kanji {
     position: absolute;
     width: 100%;
-    top: -80px;
+    top: -130px;
   }
 
 .values__3d-donuts {
@@ -892,11 +892,45 @@ button,
     padding: 10px;
   }
 
-.grid-item-methodology {
+.grid-container-methodology-end {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+  }
+
+.grid-item-methodology-1 {
     padding: 20px;
     width: 200px;
     text-align: center;
-    margin-left: 50px;
+    margin-left: 30px;
+  }
+
+.grid-item-methodology1{
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+    margin-left: 30px;
+  }
+
+.grid-item-methodology-webms{
+    padding: 20px;
+    text-align: center;
+  }
+
+.grid-item-methodology2{
+    padding: 20px;
+    width: 280px;
+    text-align: center;
+    margin-left: 80px;
+    margin-right: 80px;
+  }
+
+.grid-item-methodology3{
+    padding: 20px;
+    width: 270px;
+    text-align: center;
+    margin-left: 0px;
+    margin-right: 20px;
   }
 
 .grid-item-methodology-2{
@@ -935,12 +969,19 @@ button,
   }
 
 .methodologys{
-    margin-top: -80px;
+    margin-top: -120px;
   }
 
 .no_need{
+    margin-top: -40px;
+    margin-bottom: -30px;
     width: 80%;
     margin-left: 10%;
+  }
+
+.mr-tp-end{
+    margin-top: 130px;
+
   }
 
 .one-step-title{
@@ -951,6 +992,15 @@ button,
     font-weight: 800;
     color: white;
     text-transform: uppercase;
+  }
+
+.methodology__grids {
+    width: 20%;
+    position: absolute;
+    margin-left: -120px
+    /* top: calc(10%); */
+    /* left: calc(80%); */
+    /* transform: translate(-50%, -50%); */
   }
 
 .progress-menu {
