@@ -421,7 +421,7 @@ body {
 }
 
 body {
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
   background-color: #1c1c1c;
   background-image: url(images/a06d916761954d37d923e80c6bb81056.png);
   background-repeat: no-repeat;
@@ -794,6 +794,15 @@ button,
     width: 50%;
     top: 20%;
     position: absolute;
+  }
+
+.how__center-how-wedoit{
+    top: 20%;
+    position: absolute;
+  }
+
+.how-wedoit{
+    opacity: 0.5;
   }
 
 .how__movement{
