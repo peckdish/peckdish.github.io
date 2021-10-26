@@ -642,10 +642,18 @@ button,
     position: absolute;
   }
 
+.here-is{
+    width: 100%;
+    text-align: center;
+    color: #15F4EE;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 5%;
+  }
+
 .values__3d-kanji {
     position: absolute;
     width: 100%;
-    top: -130px;
+    top: -150px;
   }
 
 .values__3d-donuts {
@@ -799,6 +807,48 @@ button,
 .how__center-how-wedoit{
     top: 20%;
     position: absolute;
+  }
+
+.box-text{
+    width: 60%;
+    margin-top: 250px;
+    display: none;
+    margin-left: 40%;
+  }
+
+.box-text-active{
+    width: 60%;
+    margin-top: 250px;
+    display: block;
+    margin-left: 40%;
+  }
+
+.box-text-content{
+    width: 60%;
+    margin-top: 270px;
+    display: none;
+    margin-left: 40%;
+  }
+
+.box-text-content-active{
+    width: 60%;
+    margin-top: 270px;
+    display: block;
+    margin-left: 40%;
+  }
+
+.box-text-movement{
+    width: 60%;
+    margin-top: 230px;
+    display: none;
+    margin-left: 10%;
+  }
+
+.box-text-movement-active{
+    width: 60%;
+    margin-top: 270px;
+    display: block;
+    margin-left: 40%;
   }
 
 .how-wedoit{
