@@ -1062,6 +1062,33 @@ button,
     /* transform: translate(-50%, -50%); */
   }
 
+.social-line{
+    width: 12%;
+    /* height: 50%; */
+    height: 50%;
+    margin-top: -23%;
+    margin-left: 8%;
+    position: absolute;
+  }
+
+.brand-line{
+    width: 12%;
+    /* height: 50%; */
+    height: 50%;
+    margin-top: -21%;
+    margin-left: 8%;
+    position: absolute;
+  }
+
+.communication-line{
+    width: 12%;
+    /* height: 50%; */
+    height: 50%;
+    margin-top: -20%;
+    margin-left: 8%;
+    position: absolute;
+  }
+
 .progress-menu {
   position: fixed;
   top: 50%;
@@ -1265,6 +1292,82 @@ button,
   font-weight: bold;
   border: 1px solid #fff;
 }
+
+.popup-movies {
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 999;
+  }
+
+.popup-movies__content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
+
+.popup-movies__close {
+    position: absolute;
+    top: 10%;
+    right: 10%;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 72px;
+    color: #fff;
+    text-decoration: none;
+    background-color: transparent;
+    cursor: pointer;
+    border: 0;
+  }
+
+.popup-movies__close:hover {
+    color: #ff75ff;
+    font-weight: bold;
+  }
+
+.popup-movies__cta {
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    -webkit-transform: translate(0, -50%);
+        -ms-transform: translate(0, -50%);
+            transform: translate(0, -50%);
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    width: 10px;
+    overflow-wrap: anywhere;
+    text-align: center;
+  }
+
+.popup-movies__item {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    display: block;
+    margin: 30px 0;
+    padding: 10px 30px;
+    border: 1px solid transparent;
+    border-radius: 6px;
+    letter-spacing: 4px;
+  }
+
+.popup-movies__item:hover {
+    color: #ff75ff;
+    font-weight: bold;
+    border: 1px solid #fff;
+  }
 
 #loading {
     height: 100vh;
