@@ -542,6 +542,10 @@ button,
           transform: translate(-50%, -50%);
 }
 
+#why__we-do-it {
+  transition: 1s;
+}
+
 .why__people-for-brands {
   width: 100%;
   position: absolute;
