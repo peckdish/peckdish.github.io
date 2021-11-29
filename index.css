@@ -546,6 +546,10 @@ button,
   transition: 1s;
 }
 
+#why__we-do-it__loop {
+  transition: 1s;
+}
+
 .why__people-for-brands {
   width: 100%;
   position: absolute;
@@ -615,7 +619,7 @@ button,
   }
 
 .values__center-are-you-hungr{
-    width: 100%;
+    width: 90%;
     left: 13%;
     top: -20%;
     position: absolute;
@@ -657,7 +661,7 @@ button,
 
 .values__3d-kanji {
     position: absolute;
-    width: 100%;
+    width: 87%;
     top: -150px;
   }
 
@@ -1375,6 +1379,78 @@ button,
     color: #ff75ff;
     font-weight: bold;
     border: 1px solid #fff;
+  }
+
+.popup-blue {
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 999;
+    background-color: rgba(40, 55, 289, 0.6);
+  }
+
+.popup-blue__content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    /* background-color: rgba(12, 53, 177, 0.5); */
+  }
+
+.popup-blue__close {
+    position: absolute;
+    top: 10%;
+    right: 10%;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 72px;
+    color: #fff;
+    text-decoration: none;
+    background-color: transparent;
+    cursor: pointer;
+    border: 0;
+  }
+
+.popup-blue__close:hover {
+    color: #ff75ff;
+    font-weight: bold;
+  }
+
+.popup-blue__cta {
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    -webkit-transform: translate(0, -50%);
+        -ms-transform: translate(0, -50%);
+            transform: translate(0, -50%);
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    width: 10px;
+    overflow-wrap: anywhere;
+    text-align: center;
+  }
+
+.popup-blue__item {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    display: block;
+    margin: 30px 0;
+    padding: 10px 30px;
+    border: 1px solid transparent;
+    border-radius: 6px;
+    letter-spacing: 4px;
   }
 
 [data-scroll] {
