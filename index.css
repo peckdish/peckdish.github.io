@@ -651,6 +651,14 @@ button,
     position: absolute;
   }
 
+.values__3d-tag-some-eggs:hover {
+    -webkit-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+            transform: scale(1.2);
+    -webkit-transition: transform 1s ease-in-out;
+
+  }
+
 .here-is{
     width: 100%;
     text-align: center;
