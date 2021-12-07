@@ -652,10 +652,10 @@ button,
   }
 
 .values__3d-tag-some-eggs:hover {
-    -webkit-transform: scale(1.2);
-        -ms-transform: scale(1.2);
-            transform: scale(1.2);
-    -webkit-transition: transform 1s ease-in-out;
+    -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+            transform: scale(1.1);
+    /* -webkit-transition: transform 1s ease-in-out; */
 
   }
 
