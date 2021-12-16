@@ -920,7 +920,7 @@ button,
         -ms-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%);
     width: 100%;
-    max-width: 1100px;
+    max-width: 970px;
     min-height: 100%;
     padding: 0 10px;
   }
@@ -986,7 +986,7 @@ button,
 
 .grid-container-methodology {
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: 33% 33% 33%;
     padding: 10px;
   }
 
@@ -1004,43 +1004,43 @@ button,
   }
 
 .grid-item-methodology1{
-    padding: 20px;
-    width: 250px;
     text-align: center;
-    margin-left: 30px;
+    margin-right: 35px;
+    margin-top: 10px;
+    padding: 20px 57px;
   }
 
 .grid-item-methodology-webms{
     padding: 20px;
     text-align: center;
+    margin: 20px 0 -30px 45px;
   }
 
 .grid-item-methodology2{
     padding: 20px;
     width: 280px;
     text-align: center;
-    margin-left: 80px;
-    margin-right: 80px;
+    margin-top: 10px;
   }
 
 .grid-item-methodology3{
-    padding: 20px;
-    width: 270px;
     text-align: center;
-    margin-left: 0px;
-    margin-right: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 20px 48px;
   }
 
 .grid-item-methodology-2{
     padding: 20px;
     text-align: center;
+    margin-top: -30px;
   }
 
 .methodology__3d-katana {
     width: 20%;
     position: absolute;
-    top: calc(50% - 230px);
-    left: 120px;
+    top: calc(50% - 280px);
+    left: 170px;
     -webkit-transform: translate(-50%, -50%);
         -ms-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%);
@@ -1060,6 +1060,7 @@ button,
     text-align: center;
     font-size: 16px;
     letter-spacing: 0.4;
+    line-height: 21px;
   }
 
 .mr-top{
@@ -1071,7 +1072,7 @@ button,
   }
 
 .no_need{
-    margin-top: -40px;
+    margin-top: -55px;
     margin-bottom: -30px;
     width: 100%;
   }
@@ -1084,7 +1085,7 @@ button,
 .one-step-title{
     width: 100%;
     text-align: center;
-    font-size: 40px;
+    font-size: 30px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 800;
     color: white;
@@ -1095,7 +1096,7 @@ button,
     width: 35%;
     position: absolute;
     margin-left: -193px;
-    margin-top: -58px;
+    margin-top: -90px;
     /* top: calc(10%); */
     /* left: calc(80%); */
     /* transform: translate(-50%, -50%); */
@@ -1117,6 +1118,10 @@ button,
     margin-top: -21%;
     margin-left: 8%;
     position: absolute;
+  }
+
+.brand {
+    margin-top: -25px;
   }
 
 .communication-line{
