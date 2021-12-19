@@ -555,7 +555,7 @@ button,
 }
 
 .people-for-brands-2 {
-  transition: 22s;
+  transition: 2s;
 }
 
 .why__people-for-brands {
@@ -1307,12 +1307,10 @@ button,
     position: absolute;
   }
 
-.design {
-    margin-top: -25px;
+.wedesignbrands {
+    margin-top: -25%;
     position: absolute;
-    top: 257px;
-    width: 600px;
-    right: 19%;
+    width: 120%;
     opacity: 0.5;
     -webkit-transform: rotate(2deg);
         -ms-transform: rotate(2deg);
