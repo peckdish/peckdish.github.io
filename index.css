@@ -1133,6 +1133,119 @@ button,
     position: absolute;
   }
 
+.design {
+    margin-top: -25px;
+    position: absolute;
+    top: 257px;
+    width: 600px;
+    right: 19%;
+    opacity: 0.5;
+    -webkit-transform: rotate(2deg);
+        -ms-transform: rotate(2deg);
+            transform: rotate(2deg);
+  }
+
+.what {
+    height: 105vh;
+    position: relative;
+    font-family: 'Montserrat', sans-serif
+}
+
+.what__holder {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    width: 100%;
+    max-width: 970px;
+    min-height: 100%;
+    padding: 0 10px;
+    color: tomato;
+    display: -webkit-flex;
+    display: flex;
+    display: flex;
+    -webkit-justify-content: space-around;
+            justify-content: space-around;
+}
+
+.what__holder ol li a {
+    color: white;
+}
+
+#in_1 {
+    -webkit-transform: rotate(3deg);
+        -ms-transform: rotate(3deg);
+            transform: rotate(3deg);
+}
+
+#in_2 {
+    -webkit-transform: rotate(-1deg);
+        -ms-transform: rotate(-1deg);
+            transform: rotate(-1deg);
+}
+
+#in_3 {
+    -webkit-transform: rotate(1deg);
+        -ms-transform: rotate(1deg);
+            transform: rotate(1deg);
+    height: 150px;
+    margin-bottom: 40px;
+    border-radius: 5px;
+    padding-top: 15px;
+}
+
+ol {
+    position: absolute;
+    top: 250px;
+    right: 58%;
+    line-height: 20px;
+}
+
+input {
+    width: 300px;
+    height: 50px;
+    margin-bottom: 40px;
+    border-radius: 5px;
+    border: none;
+}
+
+::-webkit-input-placeholder {
+    color: #FF3B6D;
+    font-size: 1.1em;
+    font-weight: 430;
+    padding-left: 15px;
+}
+
+::placeholder {
+    color: #FF3B6D;
+    font-size: 1.1em;
+    font-weight: 430;
+    padding-left: 15px;
+}
+
+button {
+    background-color: #FF6FFF;
+    height: 50px;
+    border-radius: 5px;
+    color: #FFF;
+    border: none;
+    font-size: 20px;
+    margin-top: -15px;
+    -webkit-transform: rotate(2deg);
+        -ms-transform: rotate(2deg);
+            transform: rotate(2deg);
+}
+
+.what__cols {
+    margin-top: 40px;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+            flex-direction: column;
+}
+
 .progress-menu {
   position: fixed;
   top: 50%;
