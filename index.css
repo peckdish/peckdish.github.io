@@ -568,6 +568,16 @@ button,
           transform: translate(-50%, -50%);
 }
 
+.why__people-for-brands-2 {
+  width: 94%;
+  position: absolute;
+  top: 43%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
 .why__we-design-brands {
   width: 100%;
   position: absolute;
@@ -670,9 +680,9 @@ button,
   }
 
 .values__3d-tag-some-eggs:hover {
-    -webkit-transform: scale(1.1);
-        -ms-transform: scale(1.1);
-            transform: scale(1.1);
+    -webkit-transform: scale(1.05);
+        -ms-transform: scale(1.05);
+            transform: scale(1.05);
     /* -webkit-transition: transform 1s ease-in-out; */
 
   }
