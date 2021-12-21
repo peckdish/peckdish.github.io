@@ -1352,8 +1352,39 @@ button,
             justify-content: space-around;
 }
 
-.what__holder ol li a {
+.what__canais {
+    position: absolute;
+    top: 308px;
+    left: 31%;
+    width: 276px;
+}
+
+.what__maquina {
+    position: absolute;
+    top: -200px;
+    right: -1%;
+    width: 200px;
+}
+
+/* .what__holder ol li a {
     color: white;
+} */
+
+.what__talk_with_us {
+    position: relative;
+    width: 470px;
+    right: 14%;
+    margin-top: -382px;
+}
+
+.what__balao {
+    position: absolute;
+    width: 250px;
+    top: 49px;
+    left: 10%;
+    -webkit-transform: rotate(331deg);
+        -ms-transform: rotate(331deg);
+            transform: rotate(331deg);
 }
 
 #in_1 {
@@ -1378,15 +1409,15 @@ button,
     padding-top: 15px;
 }
 
-ol {
+/* ol {
     position: absolute;
     top: 250px;
     right: 58%;
     line-height: 20px;
-}
+} */
 
 input {
-    width: 300px;
+    width: 250px;
     height: 50px;
     margin-bottom: 40px;
     border-radius: 5px;
@@ -1421,6 +1452,9 @@ button {
 }
 
 .what__cols {
+    position: absolute;
+    left: 55%;
+    width: 250px;
     margin-top: 40px;
     display: -webkit-flex;
     display: flex;
