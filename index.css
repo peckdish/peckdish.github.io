@@ -1355,15 +1355,63 @@ button,
 .what__canais {
     position: absolute;
     top: 308px;
-    left: 31%;
+    left: 23%;
     width: 276px;
 }
 
 .what__maquina {
     position: absolute;
-    top: -200px;
+    top: -142px;
     right: -1%;
     width: 200px;
+}
+
+.what__post {
+    position: absolute;
+    bottom: 110px;
+    left: -8%;
+    width: 31%;
+}
+
+.what__placa {
+    position: absolute;
+    bottom: 110px;
+    right: -8%;
+    width: 31%;
+}
+
+.what_link {
+    position: absolute;
+    top: -71px;
+    left: 56%;
+    width: 313px;
+    line-height: 0px;
+}
+
+.what_link a {
+    font-size: 16px;
+    padding: 15px;
+    width: 70%;
+    text-decoration: none;
+    margin: 0 !important;
+}
+
+.what__hr {
+    position: absolute;
+    bottom: 220px;
+    width: 50%;
+}
+
+.what__hr p {
+    color: #FF6FFF;
+    font-size: 14px;
+    text-align: center;
+}
+
+.what__hr hr{
+    background-color: #c2bfbf;
+    border-radius: 5px;
+    width: 100%;
 }
 
 /* .what__holder ol li a {
@@ -1391,12 +1439,14 @@ button,
     -webkit-transform: rotate(3deg);
         -ms-transform: rotate(3deg);
             transform: rotate(3deg);
+    padding-left: 20px;
 }
 
 #in_2 {
     -webkit-transform: rotate(-1deg);
         -ms-transform: rotate(-1deg);
             transform: rotate(-1deg);
+    padding-left: 20px;
 }
 
 #in_3 {
@@ -1407,6 +1457,7 @@ button,
     margin-bottom: 40px;
     border-radius: 5px;
     padding-top: 15px;
+    padding-left: 20px;
 }
 
 /* ol {
@@ -1428,14 +1479,12 @@ input {
     color: #FF3B6D;
     font-size: 1.1em;
     font-weight: 430;
-    padding-left: 15px;
 }
 
 ::placeholder {
     color: #FF3B6D;
     font-size: 1.1em;
     font-weight: 430;
-    padding-left: 15px;
 }
 
 button {
