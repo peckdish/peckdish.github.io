@@ -1038,7 +1038,7 @@ button,
     margin-left: 40%;
   }
 
-.box-text-active{
+.box-text-active-1, .box-text-active-2, .box-text-active-3 {
     width: 44%;
     margin-top: 39%;
     display: block;
@@ -1067,6 +1067,20 @@ button,
   }
 
 .box-text-movement-active{
+    width: 60%;
+    margin-top: 270px;
+    display: block;
+    margin-left: 40%;
+  }
+
+.box-text-imagery{
+    width: 60%;
+    margin-top: 230px;
+    display: none;
+    margin-left: 10%;
+  }
+
+.box-text-imagery-active{
     width: 60%;
     margin-top: 270px;
     display: block;
