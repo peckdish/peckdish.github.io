@@ -1020,9 +1020,9 @@ button,
   }
 
 .how__center-imagery{
-    width: 71%;
+    width: 26%;
     top: calc(34% - 10px);
-    left: calc(40% - 500px);
+    left: calc(40% - 400px);
     position: absolute;
   }
 
