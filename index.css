@@ -2163,7 +2163,7 @@ button {
   }
 
 [data-scroll] {
-    display: none;
+    /* display: none; */
     opacity: 0;
     transition: .3s; 
 }
@@ -2178,7 +2178,7 @@ button {
     transition: .3s;
     -webkit-transform: translate3d(0px, 0px, 0px);
             transform: translate3d(0px, 0px, 0px);
-    display: block;
+    /* display: block; */
 }
 
 #loading {
