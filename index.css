@@ -1088,11 +1088,17 @@ button,
     position: absolute;
   }
 
+/* .teste-1 {
+    background-color: red;
+    width: 300px;
+  } */
+
 .box-text{
     width: 60%;
     margin-top: 250px;
     display: none;
     margin-left: 40%;
+    position: relative;
   }
 
 .box-text-active-1, .box-text-active-2, .box-text-active-3 {
@@ -1142,6 +1148,27 @@ button,
     margin-top: 270px;
     display: block;
     margin-left: 40%;
+  }
+
+.how-text-imagery {
+    display: none;
+  }
+
+.how-text-imagery-active {
+    position: absolute;
+    color: pink;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    font-size: 16px;
+    letter-spacing: 0.4;
+    line-height: 21px;
+    display: block;
+    z-index: 999;
+    top: 33%;
+    right: 16%;
+    margin-top: 9px;
+    margin-right: 4%;
   }
 
 .how-wedoit{
