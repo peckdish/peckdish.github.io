@@ -1150,13 +1150,20 @@ button,
     margin-left: 40%;
   }
 
-.how-text-imagery {
+.how-text-imagery, .how-text-content, .how-text-movement {
     display: none;
   }
 
-.how-text-imagery-active {
+.how-text-content-active {
+    color: white;
     position: absolute;
-    color: pink;
+    display: block;
+    z-index: 999;
+  }
+
+.how-text-imagery-active, .how-text-movement-active {
+    position: absolute;
+    color: #FD6FFE;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     text-align: center;
