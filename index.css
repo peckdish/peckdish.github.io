@@ -1154,14 +1154,7 @@ button,
     display: none;
   }
 
-.how-text-content-active {
-    color: white;
-    position: absolute;
-    display: block;
-    z-index: 999;
-  }
-
-.how-text-imagery-active, .how-text-movement-active {
+.how-text-imagery-active, .how-text-content-active , .how-text-movement-active {
     position: absolute;
     color: #FD6FFE;
     font-family: 'Montserrat', sans-serif;
