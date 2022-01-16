@@ -608,6 +608,18 @@ button,
           transform: translate(-50%, -50%);
 }
 
+.explode-tag{
+  width: 50%;
+  position: absolute;
+  top: calc(50% + 107px);
+  left: calc(50% - 151px);
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%); 
+  z-index: 9999;
+
+}
+
 .why__3d-tag-peck-dish:hover {
   width: 135px;
   position: absolute;
@@ -626,6 +638,17 @@ button,
   -webkit-transform: translate(-50%, -50%);
       -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
+}
+
+.explode-donut {
+  width: 50%;
+  position: absolute;
+  top: calc(50% - 130px);
+  left: calc(50% + 300px);
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  z-index: 9999;
 }
 
 .why__3d-donuts:hover {
@@ -2311,6 +2334,14 @@ button {
   }
 
 .show-lettering{
+    display: block;
+  }
+
+.hidden-explode{
+    display: none;
+  }
+
+.show-explode{
     display: block;
   }
 
