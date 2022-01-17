@@ -1075,6 +1075,17 @@ button,
             transform: translate(-50%, -50%);
   }
 
+.explode-notebook {
+    width: 70%;
+    position: absolute;
+    top: calc(20%);
+    left: calc(80%);
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    z-index: 99999;
+  }
+
 .how__3d-notebook:hover {
     width: 33%;
     position: absolute;
@@ -1083,6 +1094,18 @@ button,
     -webkit-transform: translate(-50%, -50%);
         -ms-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%);
+  }
+
+.explode-lampada{
+    margin-top: 40px;
+    width: 70%;
+    position: absolute;
+    top: calc(79% - 10px);
+    left: calc(15% + 20px);
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    z-index: 999999;
   }
 
 .how__3d-lampada{
