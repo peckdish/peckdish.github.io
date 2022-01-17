@@ -779,6 +779,17 @@ button,
     z-index: 9999999;
   }
 
+.explode-enguia {
+    width: 58%;
+    position: absolute;
+    top: calc(45% - 429px);
+    left: calc(45% - 301px);
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    z-index: 99999999;
+  }
+
 .values__3d-katana:hover {
     width: 33%;
     position: absolute;
@@ -2244,7 +2255,7 @@ button {
     background-color: #2212F0;
     z-index: 999999;
     margin-top: 25%;
-    position: absolute;
+    position: fixed;
     margin-left: 25%;
     -webkit-transform: rotate(6deg);
         -ms-transform: rotate(6deg);
@@ -2257,7 +2268,7 @@ button {
     background-color: #F00045;
     z-index: 999999;
     margin-top: 25%;
-    position: absolute;
+    position: fixed;
     margin-left: 25%;
     -webkit-transform: rotate(-6deg);
         -ms-transform: rotate(-6deg);
@@ -2270,7 +2281,7 @@ button {
     background-color: #8112F0;
     z-index: 999999;
     margin-top: 25%;
-    position: absolute;
+    position: fixed;
     margin-left: 25%;
     -webkit-transform: rotate(-6deg);
         -ms-transform: rotate(-6deg);
@@ -2283,7 +2294,7 @@ button {
     background-color: #C816F8;
     z-index: 999999;
     margin-top: 25%;
-    position: absolute;
+    position: fixed;
     margin-left: 25%;
     -webkit-transform: rotate(6deg);
         -ms-transform: rotate(6deg);
@@ -2296,7 +2307,7 @@ button {
     background-color: #FFFF55;
     z-index: 999999;
     margin-top: 25%;
-    position: absolute;
+    position: fixed;
     margin-left: 25%;
     -webkit-transform: rotate(-6deg);
         -ms-transform: rotate(-6deg);
