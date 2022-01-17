@@ -1724,9 +1724,13 @@ button {
     border: 0;
   }
 
-.progress-menu__links button:last-of-type {
-      border-top: 3px solid white;
-    }
+.separator-movies{
+  height: 2px;
+  width: 100%;
+  margin-top: 6px;
+  background-color: white;
+  margin-bottom: -5px;
+}
 
 .menu {
   position: fixed;
