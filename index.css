@@ -1158,11 +1158,29 @@ button,
     position: relative;
   }
 
-.box-text-active-1, .box-text-active-2, .box-text-active-3 {
+.box-text-active-1 {
+    width: 44%;
+    margin-top: 38%;
+    display: block;
+    margin-left: 20%;
+  }
+
+.box-text-active-1:hover {
+    transition: calc(5s);
+  }
+
+.box-text-active-2 {
     width: 44%;
     margin-top: 39%;
     display: block;
-    margin-left: 52%;
+    margin-left: 45%;
+  }
+
+.box-text-active-3 {
+    width: 44%;
+    margin-top: 39%;
+    display: block;
+    margin-left: 24%;
   }
 
 .box-text-content{
