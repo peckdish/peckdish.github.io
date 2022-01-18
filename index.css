@@ -1375,6 +1375,17 @@ button,
     margin-top: -30px;
   }
 
+.explode-katana {
+    width: 50%;
+    position: absolute;
+    top: calc(50% - 280px);
+    left: 170px;
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    z-index: 999999;
+  }
+
 .methodology__3d-katana {
     width: 20%;
     position: absolute;
@@ -1526,11 +1537,34 @@ button,
     width: 276px;
 }
 
+.explode-maquina {
+    position: absolute;
+    top: -142px;
+    right: -13%;
+    width: 50%;
+    z-index: 9999999;
+}
+
 .what__maquina {
     position: absolute;
     top: -142px;
     right: -1%;
     width: 200px;
+}
+
+.what__maquina:hover {
+    position: absolute;
+    top: -142px;
+    right: -1%;
+    width: 213px;
+}
+
+.explode-post{
+    position: absolute;
+    bottom: 110px;
+    left: -18%;
+    width: 50%;
+    z-index: 99999;
 }
 
 .what__post {
@@ -1540,11 +1574,33 @@ button,
     width: 31%;
 }
 
+.what__post:hover {
+    position: absolute;
+    bottom: 110px;
+    left: -8%;
+    width: 36%;
+}
+
+.explode-placa {
+    position: absolute;
+    bottom: 110px;
+    right: -15%;
+    width: 50%;
+    z-index: 9999;
+}
+
 .what__placa {
     position: absolute;
     bottom: 110px;
     right: -8%;
     width: 31%;
+}
+
+.what__placa:hover {
+    position: absolute;
+    bottom: 110px;
+    right: -8%;
+    width: 34%;
 }
 
 .what_link {
@@ -1595,6 +1651,27 @@ button,
 .what__balao {
     position: absolute;
     width: 250px;
+    top: 49px;
+    left: 10%;
+    -webkit-transform: rotate(331deg);
+        -ms-transform: rotate(331deg);
+            transform: rotate(331deg);
+}
+
+.explode-balao{
+    position: absolute;
+    width: 50%;
+    top: 49px;
+    left: -3%;
+    -webkit-transform: rotate(331deg);
+        -ms-transform: rotate(331deg);
+            transform: rotate(331deg);
+    z-index: 99999;
+}
+
+.what__balao:hover {
+    position: absolute;
+    width: 263px;
     top: 49px;
     left: 10%;
     -webkit-transform: rotate(331deg);
