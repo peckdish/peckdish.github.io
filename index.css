@@ -452,8 +452,7 @@ body::before {
 .fade-in {
   -webkit-animation-name: fadeIn;
           animation-name: fadeIn;
-  -webkit-animation-duration: 0.5s;
-          animation-duration: 0.5s;
+  /* animation-duration: 0.5s; */
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
 }
@@ -461,8 +460,7 @@ body::before {
 .fade-out {
   -webkit-animation-name: fadeOut;
           animation-name: fadeOut;
-  -webkit-animation-duration: 0.5s;
-          animation-duration: 0.5s;
+  /* animation-duration: 0.5s; */
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
 }
@@ -513,6 +511,15 @@ button,
 [type="reset"],
 [type="submit"] {
   -webkit-appearance: button;
+}
+
+.boring__anim {
+  position: absolute;
+  /* width: 250px; */
+}
+
+.sec-final{
+  height: 500px !important;
 }
 
 .why {
@@ -1231,7 +1238,7 @@ button,
 
 .how-text-imagery-active, .how-text-content-active , .how-text-movement-active {
     position: absolute;
-    color: #FD6FFE;
+    color: #FF6FFF;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     text-align: left;
@@ -1244,6 +1251,21 @@ button,
     right: 16%;
     margin-top: 9px;
     margin-right: 4%;
+  }
+
+.title-imagery-box{
+    position: absolute;
+    color: #FFF;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    text-align: left;
+    font-size: 16px;
+    letter-spacing: 0.4;
+    line-height: 21px;
+    display: block;
+    z-index: 999;
+    top: 21%;
+    left: 17%;
   }
 
 .how-wedoit{
