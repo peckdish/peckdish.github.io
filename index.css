@@ -2448,6 +2448,19 @@ button {
             transform: rotate(6deg);
   }
 
+.cover-black{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: gray; /* for old browsers */
+    background-color: rgba(173, 173, 173, 0.4);
+    z-index: 999998;
+    display: none;
+
+  }
+
 .lettering-red{
     width: 85%;
     height: 90px;
