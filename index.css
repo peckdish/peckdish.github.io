@@ -615,7 +615,7 @@ button,
           transform: translate(-50%, -50%);
 }
 
-.explode-tag{
+.explode-plaquinha{
   width: 50%;
   position: absolute;
   top: calc(50% + 107px);
@@ -1266,6 +1266,14 @@ button,
     z-index: 999;
     top: 21%;
     left: 17%;
+  }
+
+.hidden-title{
+    display: none;
+  }
+
+.show-title{
+    display: block;
   }
 
 .how-wedoit{
