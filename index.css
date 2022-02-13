@@ -1277,7 +1277,7 @@ button,
   }
 
 .how-wedoit{
-    opacity: 0.5;
+    opacity: 0.2;
   }
 
 .how__movement{
@@ -1297,6 +1297,8 @@ button,
 .methodology {
     height: 105vh;
     position: relative;
+    margin-top: 120px;
+    margin-bottom: 100px;
   }
 
 .methodology__holder {
@@ -1500,6 +1502,7 @@ button,
     font-weight: 800;
     color: white;
     text-transform: uppercase;
+    margin-bottom: 80px;
   }
 
 .methodology__grids {
@@ -1547,7 +1550,7 @@ button,
     margin-top: -25%;
     position: absolute;
     width: 120%;
-    opacity: 0.5;
+    opacity: 0.2;
     -webkit-transform: rotate(2deg);
         -ms-transform: rotate(2deg);
             transform: rotate(2deg);
