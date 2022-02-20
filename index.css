@@ -2085,7 +2085,11 @@ button {
   margin-bottom: 25px;
 }
 
-.progress-menu__logo:hover{
+.logo-peck-hover{
+  width: 8%;
+  margin-left: 3.5%;
+  top: 3%;
+  position: fixed;
 }
 
 .wrap {
