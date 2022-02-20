@@ -1264,7 +1264,9 @@ button,
     line-height: 21px;
     display: block;
     z-index: 999;
-    top: -62%;
+    left: -6%;
+    top: -65%;
+    letter-spacing: 3px;
   }
 
 .title-imagery-box-2{
@@ -1278,7 +1280,10 @@ button,
     line-height: 21px;
     display: block;
     z-index: 999;
-    top: -90%;
+    top: -95%;
+    letter-spacing: 3px;
+    left: -6%;
+
   }
 
 .hidden-title{
@@ -1497,7 +1502,7 @@ button,
   }
 
 .no_need{
-    margin-top: -55px;
+    margin-top: -35px;
     margin-bottom: -30px;
     width: 100%;
   }
