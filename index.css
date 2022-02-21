@@ -2085,6 +2085,8 @@ button {
           transform: translateY(-50%);
   left: 75px;
   text-align: center;
+  z-index: 9999;
+
 }
 
 .progress-menu__logo {
@@ -2096,6 +2098,7 @@ button {
   margin-left: 3.5%;
   top: 3%;
   position: fixed;
+  z-index: 9999;
 }
 
 .wrap {
@@ -2104,6 +2107,8 @@ button {
   margin: 0 auto;
   text-align: center;
   position: relative;
+  z-index: 9999;
+
 }
 
 .grayscale {
@@ -2135,6 +2140,7 @@ button {
   background-color: rgba(255, 255, 255, .5);
   position: relative;
   margin: 0 auto;
+  z-index: 9999;
 }
 
 .progress-menu__progress-bar span {
@@ -2144,7 +2150,12 @@ button {
     background-color: white;
     height: 0%;
     width: 3px;
+    z-index: 9999;
   }
+
+.progress-menu__links {
+  z-index: 9999;
+}
 
 .progress-menu__links button {
     display: block;
@@ -2159,6 +2170,7 @@ button {
     background-color: transparent;
     cursor: pointer;
     border: 0;
+    z-index: 9999;
   }
 
 .separator-movies{
@@ -2177,9 +2189,11 @@ button {
           transform: translateY(-50%);
   right: 75px;
   text-align: center;
+  z-index: 9999;
 }
 
 .menu__links {
+  z-index: 9999;
   position: relative;
   width: 140px;
   height: 40px;
@@ -2196,6 +2210,7 @@ button {
     position: absolute;
     width: 140px;
     text-align: center;
+    z-index: 9999;
   }
 
 .menu__links a.menu__links-highlight::after {
@@ -2209,6 +2224,8 @@ button {
       z-index: 4;
       color: #ff75ff;
       mix-blend-mode: lighten;
+      z-index: 9999;
+
     }
 
 .menu__links-selector {
@@ -2224,7 +2241,7 @@ button {
       -ms-transform: translate(-50%, -10px);
           transform: translate(-50%, -10px);
   background-color: rgba(0, 0, 0, 1);
-  z-index: 3;
+  z-index: 9999;
 }
 
 .we-are {
@@ -2240,6 +2257,8 @@ button {
   font-size: 15px;
   font-weight: 400;
   line-height: 22px;
+
+  z-index: 9999;
 }
 
 .we-are a {
@@ -2406,7 +2425,7 @@ button {
     width: 100vw;
     height: 100vh;
     z-index: 999;
-    background-color: rgba(40, 55, 289, 0.6);
+    background-color: #2212F0;
   }
 
 .popup-blue__content {
@@ -2478,7 +2497,7 @@ button {
     width: 100vw;
     height: 100vh;
     z-index: 999;
-    background-color: rgba(220, 20, 60, 0.6);
+    background-color: #F00045;
   }
 
 .popup-red__content {
@@ -2550,7 +2569,7 @@ button {
     width: 100vw;
     height: 100vh;
     z-index: 999;
-    background-color: rgba(138, 43, 226, 0.6);
+    background-color: #C816F8;
   }
 
 .popup-purple__content {
@@ -2622,7 +2641,7 @@ button {
     width: 100vw;
     height: 100vh;
     z-index: 999;
-    background-color: rgba(230, 25, 229, 0.6);
+    background-color: #FF75FF;
   }
 
 .popup-pink__content {
@@ -2724,6 +2743,8 @@ button {
     -webkit-transform: rotate(6deg);
         -ms-transform: rotate(6deg);
             transform: rotate(6deg);
+    border: 1px solid #FFFFFF;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.6);
   }
 
 .cover-black{
@@ -2732,8 +2753,7 @@ button {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: gray; /* for old browsers */
-    background-color: rgba(173, 173, 173, 0.4);
+    background-color: rgba(0, 0, 0, 0.6);
     z-index: 999998;
     display: none;
 
@@ -2750,6 +2770,9 @@ button {
     -webkit-transform: rotate(-6deg);
         -ms-transform: rotate(-6deg);
             transform: rotate(-6deg);
+    border: 1px solid #FFFFFF;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.6);
+
   }
 
 .lettering-purple{
@@ -2763,6 +2786,9 @@ button {
     -webkit-transform: rotate(-6deg);
         -ms-transform: rotate(-6deg);
             transform: rotate(-6deg);
+    border: 1px solid #FFFFFF;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.6);
+
   }
 
 .lettering-pink{
@@ -2776,6 +2802,9 @@ button {
     -webkit-transform: rotate(6deg);
         -ms-transform: rotate(6deg);
             transform: rotate(6deg);
+    border: 1px solid #FFFFFF;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.6);
+
   }
 
 .lettering-yellow{
@@ -2789,32 +2818,38 @@ button {
     -webkit-transform: rotate(-6deg);
         -ms-transform: rotate(-6deg);
             transform: rotate(-6deg);
+    border: 1px solid #FFFFFF;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.6);
+
   }
 
 .text-lettering{
-    font-size: 80px;
+    font-size: 58px;
     padding-left: 10px;
     color: white;
     font-family: "Montserrat", sans-serif;
     font-weight: 800;
+    text-transform: uppercase;
   }
 
 .text-lettering-red{
-    font-size: 68px;
+    font-size: 58px;
     padding-left: 10px;
     padding-top: 10px;
     color: white;
     font-family: "Montserrat", sans-serif;
     font-weight: 800;
+    text-transform: uppercase;
   }
 
 .text-lettering-yellow{
-    font-size: 68px;
+    font-size: 58px;
     padding-left: 10px;
     padding-top: 10px;
     color: #1C1C1C;
     font-family: "Montserrat", sans-serif;
     font-weight: 800;
+    text-transform: uppercase;
   }
 
 .hidden-lettering{
