@@ -1061,8 +1061,8 @@ button,
     margin-top: 100px;
     display: grid;
     grid-template-columns: auto auto;
-    padding: 10px 300px;
-    margin-left: -200px;
+    padding: 10px 230px;
+    margin-left: -305px;
   }
 
 .grid-item {
@@ -2759,6 +2759,25 @@ button {
     -webkit-animation-duration: 20s;
   }
 
+.lettering-blue-2{
+    width: 75%;
+    height: 90px;
+    background-color: #2212F0;
+    z-index: 999999;
+    margin-top: 25%;
+    position: fixed;
+    margin-left: 25%;
+    -webkit-transform: rotate(6deg);
+        -ms-transform: rotate(6deg);
+            transform: rotate(6deg);
+    border: 1px solid #FFFFFF;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.6);
+
+    -webkit-animation: linear infinite;
+    -webkit-animation-name: run;
+    -webkit-animation-duration: 20s;
+  }
+
 @-webkit-keyframes run {
     0% {
       right: -100%;
@@ -2784,7 +2803,7 @@ button {
   }
 
 .lettering-red{
-    width: 80%;
+    width: 55%;
     height: 90px;
     background-color: #F00045;
     z-index: 999999;
@@ -2821,6 +2840,25 @@ button {
 
   }
 
+.lettering-purple-2{
+    width: 60%;
+    height: 90px;
+    background-color: #8112F0;
+    z-index: 999999;
+    margin-top: 25%;
+    position: fixed;
+    margin-left: 25%;
+    -webkit-transform: rotate(-6deg);
+        -ms-transform: rotate(-6deg);
+            transform: rotate(-6deg);
+    border: 1px solid #FFFFFF;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.6);
+    -webkit-animation: linear infinite;
+    -webkit-animation-name: run;
+    -webkit-animation-duration: 20s;
+
+  }
+
 .lettering-pink{
     width: 65%;
     height: 90px;
@@ -2840,8 +2878,46 @@ button {
 
   }
 
-.lettering-yellow{
+.lettering-pink-2{
     width: 75%;
+    height: 90px;
+    background-color: #C816F8;
+    z-index: 999999;
+    margin-top: 25%;
+    position: fixed;
+    margin-left: 25%;
+    -webkit-transform: rotate(6deg);
+        -ms-transform: rotate(6deg);
+            transform: rotate(6deg);
+    border: 1px solid #FFFFFF;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.6);
+    -webkit-animation: linear infinite;
+    -webkit-animation-name: run;
+    -webkit-animation-duration: 20s;
+
+  }
+
+.lettering-yellow{
+    width: 57%;
+    height: 90px;
+    background-color: #FFFF55;
+    z-index: 999999;
+    margin-top: 25%;
+    position: fixed;
+    margin-left: 25%;
+    -webkit-transform: rotate(-6deg);
+        -ms-transform: rotate(-6deg);
+            transform: rotate(-6deg);
+    border: 1px solid #FFFFFF;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.6);
+    -webkit-animation: linear infinite;
+    -webkit-animation-name: run;
+    -webkit-animation-duration: 20s;
+
+  }
+
+.lettering-yellow-2{
+    width: 53%;
     height: 90px;
     background-color: #FFFF55;
     z-index: 999999;
