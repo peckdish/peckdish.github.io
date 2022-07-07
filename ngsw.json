@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1657053259906,
+  "timestamp": 1657155575313,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -14,11 +14,11 @@
         "/favicon.ico",
         "/index.html",
         "/lottie-web.55cd01e58c624f97.js",
-        "/main.96f5c12b5f8a7d11.js",
+        "/main.bfbe97d53d36a5f4.js",
         "/manifest.webmanifest",
         "/polyfills.752e7fb71220fb5c.js",
         "/runtime.4392bf044056315a.js",
-        "/styles.08eff4d63ebe5b6d.css"
+        "/styles.06acea7d3f654948.css"
       ],
       "patterns": []
     },
@@ -144,8 +144,8 @@
     "/assets/lootie-animations/loading/loading_loop_v02.json": "fda3f877cf475d48d6aed1fd607c3ae8f97ced75",
     "/assets/lootie-animations/loading/loading_out_v02.json": "ed052ec9f5cce98abf1557cb0f47be04b7146204",
     "/assets/lootie-animations/section-how/HowWeDoIt.json": "63872710260bafea414eec939294dc23170cd1c6",
-    "/assets/lootie-animations/section-how/box_text_in.json": "038dbca364e8558cc2c70a8667ab735ee52a75e7",
-    "/assets/lootie-animations/section-how/box_text_out.json": "c60a7efef926c2721b8280dfbb0a4707c9d71f26",
+    "/assets/lootie-animations/section-how/box_text_in.json": "829f374ee052a36abf8d1c912ab31fc015036e75",
+    "/assets/lootie-animations/section-how/box_text_out.json": "0db8efd425f440a8f9744286c29a5a96921a002a",
     "/assets/lootie-animations/section-how/content_in.json": "14b734e7ff7fbdfad785bd3fa298f9963dd84613",
     "/assets/lootie-animations/section-how/imagery_in.json": "108d9b3ebeb034842c12aa2192c86daf3c948885",
     "/assets/lootie-animations/section-how/imagery_loop.json": "37d031f491010f667acd31f04c8c4ce01e8ce0c6",
@@ -214,14 +214,14 @@
     "/assets/webm-animations/socialMediaElementosBG_01_full.webm": "73b5f53369cd99fec39f8562198c7379b9602b5f",
     "/background.fc45dbbbf885d2f9.png": "5b813600d70906159f6c1acfca259148d106a699",
     "/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "/index.html": "502cbf46063f386f3e5a523b3036633b75fa202e",
+    "/index.html": "fd6e071f8bd815df5b76f5811267820cc4f025a2",
     "/lottie-web.55cd01e58c624f97.js": "9dc560cd2c5e8c23af51b7f3fdbe0bb19026658e",
-    "/main.96f5c12b5f8a7d11.js": "d6f9c0c3a1ea5b0ea841e6b6de47f397cf7abf41",
+    "/main.bfbe97d53d36a5f4.js": "4043270c3b8a9a61f42dbc96a028d11461c886ad",
     "/manifest.webmanifest": "f2cc31edb8bfeb4b17cbb40c2d97b6c73c1906c2",
     "/noise.50d251d6bc0a429f.png": "a634702e40b1c83f737a11119f7fce7752373c54",
     "/polyfills.752e7fb71220fb5c.js": "36fe469e3b969660fb49b9fe92c88414d420ab9b",
     "/runtime.4392bf044056315a.js": "3794eb278a7f25805438cacff0ee0560af568fd1",
-    "/styles.08eff4d63ebe5b6d.css": "d15881cffca649bc2aaae96cab34531b34552225"
+    "/styles.06acea7d3f654948.css": "888cb6983c0a0a47d24bd1d178a83874021cfcf9"
   },
   "navigationUrls": [
     {
