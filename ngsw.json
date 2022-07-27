@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1658529305621,
+  "timestamp": 1658897767668,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -13,12 +13,12 @@
       "urls": [
         "/favicon.ico",
         "/index.html",
-        "/lottie-web.55cd01e58c624f97.js",
-        "/main.6f4f6ba28ca910d4.js",
+        "/lottie-web.901727d1277fb605.js",
+        "/main.b33876dc6f9c6d90.js",
         "/manifest.webmanifest",
-        "/polyfills.752e7fb71220fb5c.js",
-        "/runtime.4392bf044056315a.js",
-        "/styles.db4d06ff58ab681f.css"
+        "/polyfills.59bf9d2388653f41.js",
+        "/runtime.2d4fa86a450590e3.js",
+        "/styles.a0ca9b710ba5ce0e.css"
       ],
       "patterns": []
     },
@@ -31,6 +31,9 @@
       },
       "urls": [
         "/arrow-right.650e982224ccd247.png",
+        "/assets/icons/check-mark-icon.png",
+        "/assets/icons/fire_icon.png",
+        "/assets/icons/high-voltage_icon.png",
         "/assets/icons/icon-128x128.png",
         "/assets/icons/icon-144x144.png",
         "/assets/icons/icon-152x152.png",
@@ -39,6 +42,10 @@
         "/assets/icons/icon-512x512.png",
         "/assets/icons/icon-72x72.png",
         "/assets/icons/icon-96x96.png",
+        "/assets/icons/melting-face_icon.png",
+        "/assets/icons/pizza_icon.png",
+        "/assets/icons/popcorn_icon.png",
+        "/assets/icons/unicorn_icon.png",
         "/assets/images/arrow-right.png",
         "/assets/images/background.png",
         "/assets/images/noise.png",
@@ -118,7 +125,12 @@
         "/assets/webm-animations/post_500_v02.webm",
         "/assets/webm-animations/socialMediaElementosBG_01_full.webm",
         "/background.fc45dbbbf885d2f9.png",
-        "/noise.50d251d6bc0a429f.png"
+        "/high-voltage_icon.bb08b891182d3225.png",
+        "/melting-face_icon.3a5d4099a5799652.png",
+        "/noise.50d251d6bc0a429f.png",
+        "/pizza_icon.22c88d7fabc26052.png",
+        "/popcorn_icon.decb8abe1d7ebd02.png",
+        "/unicorn_icon.6d6d9a17fd98b645.png"
       ],
       "patterns": []
     }
@@ -126,6 +138,9 @@
   "dataGroups": [],
   "hashTable": {
     "/arrow-right.650e982224ccd247.png": "c6614315ab79e5ce1c5dfb1e0df52e42864c4f01",
+    "/assets/icons/check-mark-icon.png": "7d4ff12e00df71c8db16e135208cdaf6d204af06",
+    "/assets/icons/fire_icon.png": "4e6e0ead0b1fab841c5a1a9c0c0f66f6065463eb",
+    "/assets/icons/high-voltage_icon.png": "cbcd74124276f6575e7c5418a8dae912c6f93e87",
     "/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
     "/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
     "/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
@@ -134,6 +149,10 @@
     "/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
     "/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
     "/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "/assets/icons/melting-face_icon.png": "a55682f165826cdd3d124f2287c62ac36022c179",
+    "/assets/icons/pizza_icon.png": "f3b0008f592301597e15313f2ca470a247500d41",
+    "/assets/icons/popcorn_icon.png": "6f701e06c4f07bd28cffc79f20638f28d1a73f14",
+    "/assets/icons/unicorn_icon.png": "758072f65dee9906b150d7d5420fde79d3432a16",
     "/assets/images/arrow-right.png": "c6614315ab79e5ce1c5dfb1e0df52e42864c4f01",
     "/assets/images/background.png": "5b813600d70906159f6c1acfca259148d106a699",
     "/assets/images/noise.png": "a634702e40b1c83f737a11119f7fce7752373c54",
@@ -214,14 +233,19 @@
     "/assets/webm-animations/socialMediaElementosBG_01_full.webm": "73b5f53369cd99fec39f8562198c7379b9602b5f",
     "/background.fc45dbbbf885d2f9.png": "5b813600d70906159f6c1acfca259148d106a699",
     "/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "/index.html": "1f2f849886a478e6aecde57dc338de3bf2c25ca9",
-    "/lottie-web.55cd01e58c624f97.js": "9dc560cd2c5e8c23af51b7f3fdbe0bb19026658e",
-    "/main.6f4f6ba28ca910d4.js": "8ceb1ad0adf8e5316f81629e29a07293fb5a1fb2",
+    "/high-voltage_icon.bb08b891182d3225.png": "cbcd74124276f6575e7c5418a8dae912c6f93e87",
+    "/index.html": "098161e5fe72829495a019d1586fd6b58885afef",
+    "/lottie-web.901727d1277fb605.js": "1d98f8bca17221f48dc0f9eacfb6e874ccd3fc41",
+    "/main.b33876dc6f9c6d90.js": "50fd10f0eb4bacae9cf3a3e7a9dd7a22cdce5446",
     "/manifest.webmanifest": "f2cc31edb8bfeb4b17cbb40c2d97b6c73c1906c2",
+    "/melting-face_icon.3a5d4099a5799652.png": "a55682f165826cdd3d124f2287c62ac36022c179",
     "/noise.50d251d6bc0a429f.png": "a634702e40b1c83f737a11119f7fce7752373c54",
-    "/polyfills.752e7fb71220fb5c.js": "36fe469e3b969660fb49b9fe92c88414d420ab9b",
-    "/runtime.4392bf044056315a.js": "3794eb278a7f25805438cacff0ee0560af568fd1",
-    "/styles.db4d06ff58ab681f.css": "88b2b28252ce034b1272403217193297830249ed"
+    "/pizza_icon.22c88d7fabc26052.png": "f3b0008f592301597e15313f2ca470a247500d41",
+    "/polyfills.59bf9d2388653f41.js": "611560111f37094d72d8a434ffaee266a815888d",
+    "/popcorn_icon.decb8abe1d7ebd02.png": "6f701e06c4f07bd28cffc79f20638f28d1a73f14",
+    "/runtime.2d4fa86a450590e3.js": "5a45f37218be698b5be1e26c14bc7dcab33d2360",
+    "/styles.a0ca9b710ba5ce0e.css": "05926cb971f4a4e2bf6f2e6b72e62e80b24dd1be",
+    "/unicorn_icon.6d6d9a17fd98b645.png": "758072f65dee9906b150d7d5420fde79d3432a16"
   },
   "navigationUrls": [
     {
